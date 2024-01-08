@@ -8,6 +8,11 @@
     font-family: 'Inter', sans-serif;
 }
 
+button {
+    background: none;
+    border: none;
+}
+
 header {
     background-image: url('../images/banner.png');
     background-repeat: no-repeat;
@@ -50,7 +55,7 @@ header {
 }
 
 header::after {
-    content: "";
+    content: '';
     background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
     border-radius: 16px;
     position: absolute;
@@ -86,6 +91,130 @@ header::after {
     font-weight: 700;
     margin-bottom: 48px;
 }
-#discount img{
+
+#discount img {
     margin-bottom: 120px;
 }
+
+/* main section styles */
+.main-section {
+    background-image: url('../images/Vectorrr.png');
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    width: 100%;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    min-height: 750px;
+    margin-bottom: 120px;
+
+}
+
+.main-section::after {
+    content: '';
+    background: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0) 100%);
+    border-radius: 16px;
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+
+}
+
+.main-section-title {
+    color: white;
+    font-size: 64px;
+    font-weight: 700;
+    line-height: 88px;
+    letter-spacing: 7.04px;
+    width: 60%;
+    margin-bottom: 24px;
+}
+
+.main-section-description {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 80%;
+    margin-bottom: 48px;
+}
+
+.main-section-button {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.main-container {
+    display: flex;
+    z-index: 2;
+}
+
+.main-section-flex {
+    width: 65%;
+}
+
+.main-section-img {
+    width: 35%;
+    text-align: center;
+}
+
+/* place related style */
+
+#place-section {
+    background: linear-gradient(180deg, rgba(255, 0, 0, 0.10) 0%, rgba(255, 0, 0, 0) 100%);
+    border-radius: 16px;
+    padding: 100px;
+    margin-bottom: 120px;
+    text-align: center;
+}
+
+#place-section h3 {
+    font-size: 32px;
+    font-family: Inter;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+#place-section button {
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: #FF0000;
+    padding: 16px 32px;
+    border-radius: 8px;
+    margin-top: 48px;
+    
+}
+/* offer section */
+.offer-section{
+    display: flex;
+    align-items: center;
+    gap: 70px;
+    margin-bottom: 120px;
+
+}
+.offer-child-1{
+    width:30%;
+}
+.offer-child-2{
+    width:50%;
+    text-align: center;
+    
+}
+.offer-child-3{
+    width:20%;
+}
+.offer-child-2 img{
+    border: 15px #FF0000 solid;
+    border-radius: 100%;
+    padding: 40.08px;
+}
+
+
+
