@@ -1,8 +1,8 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-   
+
 }
 
 /* header related styles */
@@ -410,11 +410,13 @@ footer {
     line-height: 40px;
     text-decoration: none;
 }
-.footer{
+
+.footer {
     display: flex;
     justify-content: space-between;
 }
-.icons{
+
+.icons {
     display: flex;
     justify-content: center;
     gap: 24px;
