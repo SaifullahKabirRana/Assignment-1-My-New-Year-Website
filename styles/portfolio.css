@@ -1,4 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+
 /* header related styles */
+
 .header-font {
     font-family: 'Merriweather', serif;
 
@@ -24,6 +32,7 @@ header {
     align-items: center;
     position: relative;
     min-height: 750px;
+    margin-top: 50px;
 
 }
 
@@ -345,7 +354,7 @@ header::after {
 
 .email {
     width: 70%;
-    padding-left: 30px ;
+    padding-left: 30px;
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     border: none;
@@ -362,5 +371,52 @@ header::after {
     font-size: 20px;
     font-weight: 600;
     text-transform: capitalize;
+
+}
+
+/* footer related styles */
+footer {
+    background: #070211;
+    padding: 120px 0;
+    color: white;
+}
+
+.footer-description {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+
+}
+
+.footer-border {
+    border-bottom: 1px solid #FFFFFF26;
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+
+}
+
+.footer-contact {
+    display: flex;
+    align-items: center;
+
+}
+
+.footer-contact a {
+    padding-left: 16px;
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+}
+.footer{
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
 
 }
